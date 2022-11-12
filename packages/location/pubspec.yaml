@@ -17,8 +17,8 @@ flutter:
         default_package: location_ios
       # linux:
       #   default_package: location_linux
-      macos:
-        default_package: location_macos
+      # macos:
+      #   default_package: location_macos
       # web:
         # default_package: location_web
       # windows:
@@ -43,11 +43,11 @@ dependencies:
   # location_linux:
   #   path: ../location_linux
 
-  location_macos:
-    git:
-      url: https://github.com/epap-app/flutterlocation.git
-      ref: feature/fix-npe
-      path: packages/location_macos
+  # location_macos:
+  #   git:
+  #     url: https://github.com/epap-app/flutterlocation.git
+  #     ref: feature/fix-npe
+  #     path: packages/location_macos
 
   location_platform_interface:
     git:
